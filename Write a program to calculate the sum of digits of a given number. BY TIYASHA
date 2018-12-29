@@ -1,0 +1,8 @@
+num = (int(input("enter the no:")))
+sum1=0
+while num > 0:
+       digit = num % 10
+       sum1 = sum1+digit
+       num = num/10
+print("sum is = ",int(sum1))
+       
