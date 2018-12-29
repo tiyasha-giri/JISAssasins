@@ -1,0 +1,21 @@
+i=1
+while int(i)>0:
+    num=input("Enter a 4 digit number: ")
+    z=0
+    e=0
+    o=0
+    if len(num)==4:
+        for i in num:
+            print(i)
+            if int(i)==0:
+                z+=1
+            elif int(i)%2==0:
+                e+=1
+            else:
+                o+=1
+        print("No of odds in {} is {}".format(num,o))
+        print("No of even in {} is {}".format(num,e))
+        print("No of zero in {} is {}".format(num,z))
+    else:
+        print("Please enter a 4 digit number")
+        i=1
