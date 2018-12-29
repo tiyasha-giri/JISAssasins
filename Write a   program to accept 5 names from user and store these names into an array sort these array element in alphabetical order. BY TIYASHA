@@ -1,0 +1,7 @@
+names = int(input("Enter how many names:"))
+array=[]
+for i in range(names):
+    name = input("Enter the name:")
+    array.append(name)
+array.sort()
+print("After sorting the array is: ",array)
