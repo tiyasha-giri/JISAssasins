@@ -1,0 +1,8 @@
+n=int(input("Enter the numbers: "))
+array=[]
+for i in range(n):
+    num=int(input("Enter a number: "))
+    array.append(num)
+print("The array is= " , array)
+print("The maximum number is= " , max(array))
+print("The minimum number is= " , min(array))
