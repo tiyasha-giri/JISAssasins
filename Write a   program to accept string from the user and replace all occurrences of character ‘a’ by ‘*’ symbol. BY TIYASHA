@@ -1,0 +1,4 @@
+s=input("Enter the message")
+wow = lambda s : s.replace("a","*")
+result=wow(s)
+print(result)
