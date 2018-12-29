@@ -1,0 +1,2 @@
+number = input("Enter the no:")
+print("The total no is = {}".format(int(number[0])+int(number[-1])))
