@@ -1,0 +1,8 @@
+
+char = input("Enter the character:")
+print("The ascii value is = ",ord(char))
+for i in char:
+    next_asciivalue=ord(char)+1
+    print("The next_asciivalue is =",next_asciivalue)
+    previous_asciivalue=ord(char)-1
+    print("The previous_asciivalue is =",previous_asciivalue)
