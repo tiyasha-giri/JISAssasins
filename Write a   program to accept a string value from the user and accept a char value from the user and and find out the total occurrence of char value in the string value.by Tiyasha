@@ -1,0 +1,9 @@
+str=input("Enter the string: ")
+char=input("Enter the character: ")
+freq=0
+for i in str:
+    if i in char:
+        freq+=1
+
+print("Total occurance of char values = ",freq)
+
