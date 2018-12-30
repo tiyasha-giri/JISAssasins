@@ -1,0 +1,6 @@
+x = int(input("Enter the no:"))
+y = int(input("Enter the power:"))
+sum1=1
+for i in range(y):
+    sum1=sum1*x
+print(sum1)
