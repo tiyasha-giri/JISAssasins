@@ -1,0 +1,7 @@
+A = int(input("Enter the 1st side:"))
+B = int(input("Enter the 2nd side:"))
+C = int(input("Enter the 3rd side:"))
+if A+B > C or B+C > A or C+A > B:
+    print("Triangle exist")
+else:
+    print("Triangle not exist")
