@@ -1,0 +1,5 @@
+num = int(input("Enter the no:"))
+upto = int(input("How much you want to enter the no:"))
+for i in range(1,upto+1):
+    multi=num*i
+    print("{}x{}={}".format(num,i,multi))
