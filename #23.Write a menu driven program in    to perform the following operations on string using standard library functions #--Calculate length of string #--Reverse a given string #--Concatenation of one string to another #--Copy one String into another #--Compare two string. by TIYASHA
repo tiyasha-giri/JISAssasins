@@ -1,0 +1,15 @@
+str1 = input("Enter the 1st string:")
+length=len(str1)
+print("The length of the string:",length)
+words=str1.split(" ")
+words.reverse()
+print("Reverse of string:",' '.join(words))
+str2 = input("Enter the 2nd string:")
+print("concatenation of two strings are:",str1+" "+str2)
+if str2==str1:
+    print("The two strings are equal")
+else:
+    print("The two strings are not equal")
+
+str2=str1
+print("After copy the new string is:",str2)
